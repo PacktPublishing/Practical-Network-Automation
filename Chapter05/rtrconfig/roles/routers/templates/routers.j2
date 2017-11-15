@@ -1,0 +1,16 @@
+no service pad
+service tcp-keepalives-in
+service tcp-keepalives-out
+service password-encryption
+username test password test
+!
+hostname {{item.hostname}}
+logging server {{logging_server}}
+!
+logging buffered 32000
+no logging console
+!
+ip domain-lookup enable
+!
+exit
+

@@ -1,0 +1,9 @@
+- hosts: myrouters
+  vars:
+    http_port: 80
+    max_clients: 200
+  remote_user: root
+  tasks:
+  - name: test connection
+    ping:
+

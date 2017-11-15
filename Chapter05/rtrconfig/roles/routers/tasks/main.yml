@@ -1,0 +1,7 @@
+---
+- name: Generate configuration files
+  template: src=routers.j2 dest=/home/abhishek/{{item.hostname}}.txt
+  with_items: 
+  - { hostname: myrouter1 }
+  - { hostname: myrouter2 }
+

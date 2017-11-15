@@ -1,0 +1,10 @@
+---
+- hosts : all
+  vars:
+   - test: Server
+
+  tasks:
+     - debug:           
+         msg: "{{ test }} {{ item }}"     
+       with_items: [ 0, 2, 4, 6, 8, 10 ]
+   

@@ -1,0 +1,4 @@
+- hosts: myrouters
+  tasks: 
+   - debug:
+       msg: "System {{ inventory_hostname }} has hostname as {{ ansible_nodename }}"

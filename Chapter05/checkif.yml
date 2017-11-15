@@ -1,0 +1,17 @@
+- hosts: myrouters
+  tasks: 
+   - shell: uptime
+   - debug:
+       msg: "This is clock condition on Ubuntu"     
+     when: 
+      - clock == "clock"
+      - ansible_distribution == "Ubuntu"
+   
+   - debug:    
+       msg: "This is clock condition on Red HAT"
+     when: 
+      - clock = "clock" 
+      - ansible_distribution == "Red Hat"
+
+
+

@@ -27,6 +27,3 @@ By the end of the book, you will be well acquainted with the various aspects of 
 * [Software-Defined Networking with OpenFlow - Second Edition](https://www.packtpub.com/networking-and-servers/software-defined-networking-openflow-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781783984282)
 
 * [Implementing Cisco Networking Solutions](https://www.packtpub.com/virtualization-and-cloud/implementing-cisco-networking-solutions?utm_source=github&utm_medium=repository&utm_campaign=9781787121782)
-
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
